@@ -1,77 +1,49 @@
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  max-width: 600px;
+  margin: 100px auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
+h1 {
+  color: #333;
 }
 
-header h1 {
-  margin: 0;
+h2 {
+  color: #e74c3c;
+  margin-bottom: 20px;
 }
 
-nav ul {
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+ul {
   list-style-type: none;
   padding: 0;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+li {
+  color: #666;
+  margin-bottom: 10px;
 }
 
-nav ul li a {
-  color: #fff;
+a {
+  color: #3498db;
   text-decoration: none;
 }
 
-#banner {
-  background-image: url('background.jpg'); /* Reemplaza 'background.jpg' con la ruta de tu imagen de fondo */
-  background-size: cover;
-  color: #fff;
-  text-align: center;
-  padding: 100px 0;
-}
-
-#banner h2 {
-  font-size: 36px;
-  margin: 0;
-}
-
-.btn-contacto {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-
-section {
-  padding: 50px 0;
-}
-
-section h2 {
-  text-align: center;
-}
-
-section p {
-  text-align: center;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
+a:hover {
+  text-decoration: underline;
 }
